@@ -1,0 +1,154 @@
+/* Универсальные настройки */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 10px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Шапка и навигация */
+header {
+  background-color: #444;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1em;
+}
+
+.nav-list {
+  list-style: none;
+  margin-top: 15px;
+}
+.nav-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.nav-list li a {
+  color: #ddd;
+  font-weight: bold;
+}
+.nav-list li a:hover {
+  color: #fff;
+}
+
+/* Основной контент */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Секции и заголовки */
+section {
+  margin-bottom: 30px;
+}
+section h2 {
+  margin-bottom: 15px;
+  color: #444;
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+}
+section h3 {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Списки */
+ul {
+  padding-left: 20px;
+}
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Картинки и figure */
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+figure {
+  text-align: center;
+}
+figcaption {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Подвал */
+footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+footer a {
+  color: #ddd;
+}
+footer a:hover {
+  color: #fff;
+}
+
+/* ========== Адаптивные стили ========== */
+max-width: 768px {
+  header h1 {
+    font-size: 1.8em;
+  }
+  .nav-list li {
+    display: block;
+    margin: 8px 0;
+  }
+  main {
+    padding: 15px;
+    margin: 15px 10px;
+  }
+}
+
+max-width: 480px {
+  header h1 {
+    font-size: 1.5em;
+  }
+  header p {
+    font-size: 0.9em;
+  }
+  section h2 {
+    font-size: 1.3em;
+  }
+}
+.small-image {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+}
